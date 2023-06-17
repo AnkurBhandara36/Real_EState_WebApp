@@ -1,0 +1,69 @@
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1.5rem;
+}
+
+.f-heading{
+    font-size: 1.55rem;
+    color: blue;
+    font-weight: bolder;
+    margin: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+.f-para{
+    font-size: 0.82rem;
+    margin: 5px 0;
+}
+
+.orangeCircle{
+    height: 2.2vh;
+    width: 15px;
+    background-color: orange;
+    border-radius: 1000px;
+    position: absolute;
+    top: 2861px;
+    left:399px;
+}
+
+.f-head{
+    font-size: 1.55rem;
+    color: blue;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+.f-item{
+    font-weight: bolder;
+    font-size: 0.65;
+ 
+    margin-right:   8px;
+ 
+}
+
+@media (max-width:768px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .f-right{
+        text-align: center;
+    }
+
+    .f-item{
+        display: block;
+        margin: 15px 0;
+    }
+
+    
+.orangeCircle{
+top:4970px;
+    left:225px;
+}
+}

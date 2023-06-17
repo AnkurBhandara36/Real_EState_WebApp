@@ -1,0 +1,111 @@
+
+
+.h-wrapper{
+    background-color: black;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.logo_title{
+    font-weight: bolder;
+    position: relative;
+    z-index: 25;
+}
+
+.blueCircle{
+    height: 2.2vh;
+    width: 15px;
+    background-color: #3498db;
+    border-radius: 1000px;
+    position: absolute;
+    top: 21px;
+    left:383px;
+    z-index: 15;
+}
+
+
+a{
+    text-decoration: none;
+    color :white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+a:hover{
+
+    background-color: #3498db;
+    color: white;
+    padding: 8px 4px;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: #3498db;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.menuIcon{
+    display: none;
+}
+
+@media (max-width:768px){
+    .menuIcon{
+        display: block;
+    }
+    .menu{
+        /* display: none; */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        /* color: black !important; */
+        right: 1rem;
+        top:5rem;
+        padding: 1.6rem 3rem;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    /* .blueCircle{
+        position: relative;
+        top:-15px;
+    } */
+
+    .menu a{
+        margin: 16px 0;
+        color: black;
+    }
+
+    .h-wrapper{
+        justify-content: space-between;
+    }
+
+    .h-wrapper >div{
+        margin: 0 5px;
+    }
+
+    .blueCircle{
+        height: 2.2vh;
+        width: 15px;
+        background-color: blue;
+        border-radius: 1000px;
+        position: absolute;
+        top: 24px;
+        left:100px;
+        z-index: 15;
+    }
+
+    
+}

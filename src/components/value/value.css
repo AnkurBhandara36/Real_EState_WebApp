@@ -1,0 +1,142 @@
+.v-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border:8px solid red (232 232 232 /93%);
+    padding: 60px 0;
+}
+
+
+.v-conatiner > div{
+ margin:  0 60px;
+}
+
+.v-right{
+    gap:0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.dataIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.v-right>:nth-child(1){
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.v-right>:nth-child(2){
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+.v-right>:nth-child(3){
+    font-size: 0.85rem;
+}
+.heading{
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.image-containers > img{
+    width: 350px;
+    height: 80vh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-radius: 5px;
+
+}
+.accordionItem{
+    width: 500px;
+}
+
+.accordion{
+    margin-top: 2rem;
+    border: none;
+}
+.accordionItem{
+    background:white;
+    border: 2.8px solid rgba(128,128,128,0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.accordionButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordionButton:hover{
+    background: rgb(234, 234, 250);
+}
+
+.accordionButton{
+    display: flex;
+    background: white;
+    padding: 1rem 1rem;
+    width:100%;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+.icon{
+    padding: 10px;
+    background-color: #eeeeff;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #eeeeff; */
+}
+
+.icon svg{
+    fill:'black'
+}
+
+.panel{
+    text-align: justify;
+    font-size: 1rem;
+}
+.dataDetail{
+    font-size: 0.85rem;
+}
+
+@media (max-width:768px){
+    .v-conatiner{
+        flex-direction: column;
+        
+    }
+
+    .v-right{
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .para-1
+    {
+    /* margin: 0 2rem;  */
+    padding: 0 0.5rem;
+        /* margin-left: 1.6rem; */
+        width: 95%;
+    }
+
+    .image-container img{
+        width: 100%;
+        
+    }
+
+    .accordionItem{
+        width: 100%;
+        
+    }    
+
+    .image-containers > img{
+        margin-bottom: 1rem;
+    }
+}

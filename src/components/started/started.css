@@ -1,0 +1,42 @@
+.s-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.55rem 0;
+   
+}
+
+.start{
+    width: 970px;
+    height: 30vh;
+    background-color: blue;
+    color :white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+       
+.startHead{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: bolder;
+}
+.startText{
+    font-size: 0.8rem;
+}
+
+.startBtn{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    background-color: blue;
+    border: 1.55px solid #fff;
+    padding: 0.35rem;
+   border-radius: 6px;
+}
+
+.startBtn:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,161 @@
+.inputs{
+    background-color: #fff;
+    width: 380px;
+    border-radius: 5px;
+    padding: 0.3rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-wrapper{
+    background-color: black;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.heading h1{
+    font-size: 3.0rem;
+    font-weight: bolder;
+    position: relative;
+    z-index: 2;
+    line-height: 3.8rem;
+color: #3498db;
+}
+
+.para{
+    margin: 15px 0;
+}
+
+
+.hero-2 > img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+
+.inputs input{
+    border: none;
+    outline: none;
+}
+
+.orange_circle{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 999px;
+    background-color: orange;
+    position: absolute;
+        left:483px;
+        top:186px;
+        z-index: 0;
+  
+}
+
+.stat{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.count-text{
+    font-size: 0.8rem;
+    margin-left: -70px;
+}
+
+.count-num{
+    margin-left: -60px;
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.status{
+    margin-left: 65px;
+}
+
+.space{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    margin-left: 3px;
+    font-size: 1.2rem;
+}
+
+@media (max-width:768px){
+
+.hero-wrapper{
+    flex-direction: column;
+    height: 150vh;
+}
+
+.heading h1{
+    font-size:2.1rem;
+    line-height: 2.4rem;
+   margin-left: 10px;
+   font-weight: bolder;
+   color: #3498db;
+   margin-top: 2rem !important;
+}
+
+.orange_circle{
+
+    top: 30px;
+    left:153px;
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+
+.para{
+    font-size: 0.75rem;
+    padding: 0.35rem;
+    margin-left: 10px;
+}
+.inputs{
+    width: 95%;
+    margin-left: 10px;
+}
+
+.stat{
+  flex-wrap: wrap;
+
+}
+
+.status{
+    
+
+}
+
+.count-3{
+    width: 55%;
+    margin-top: 1rem;
+    position: relative;
+    left:5rem;
+ 
+}
+
+.count-num{
+    color: #fff;
+   
+}
+
+.plus{
+    color: yellow;
+    font-weight: bolder;
+}
+
+.hero-1{
+    position: relative;
+}
+
+
+}
